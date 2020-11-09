@@ -17,6 +17,7 @@
   </head>
   
   <body>
+    <header>
     <nav id="mainNavbar" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#"><strong>My Portfolio</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_Text">
@@ -28,32 +29,169 @@
           <li class="nav-item active">
           <a class="nav-link" href="#"> About</a></li>
           <li class="nav-item">
-          <a class="nav-item nav-link" href="#">Skills</a></li>
+          <a class="nav-item nav-link" href="#second">Skills</a></li>
           <li class="nav-item">
-          <a class="nav-item nav-link" href="#">Projects</a></li>
+          <a class="nav-item nav-link" href="#third">Projects</a></li>
           <li class="nav-item">
-          <a class="nav-item nav-link" href="#">Contact</a></li>
-        </div>
+          <a class="nav-item nav-link" href="#fourth">Contact</a></li>
+        </ul>
       </div>
     </nav>
+  </header>
 
-     <div class="container-fluid">
+    <section class="first" id="first">
+      <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-lg-6 text-center">
-            <h1 class="display-4">Yogesh Kumar</h1>
-            <p class="lead">I am a Web Development Enthusiast.</p>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5 text-center">
+            <h1 class="name">Yogesh Kumar</h1>
+            <p class="lead">I am a Web Development Enthusiast. I have worked as both front end and back end developer and have some knowledge regarding Competitive Programming and a little about Data science as well.</p>
               <hr class="my-4">
-                <p></p>
+                <p>Ready for any Intership as a Full Stack Developer<span><img src="https://img.icons8.com/ios/50/000000/happy--v1.png" class="smile"/></span> </p>
                 <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              <a href="https://drive.google.com/file/d/1dip7RvComDRCNBUbSXCpsl2bVEQRvNsR/view" type="button" class="btn btn-outline-success btn-lg">Resume</a>
+              <a href="#fourth" type="button" class="btn btn-outline-danger btn-lg">Contact me</a>
             </p>
           </div>
           <div class="col-lg-6">
             <img src="yk.jpg" class="img-fluid mb-100" id="myImage">
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second" id="second">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4">
+            <h1 class="display-4" id="skills">Skills</h1>
+            <p class="lead">I have acquired some skill sets over a year of time in my college. These are :-</p>
+            <hr class="my-4">
+            <ul>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/html-5.png"/></span>HTML</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/css3.png"/></span>CSS</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/javascript.png"/></span>JavaScript</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/nodejs.png"/></span>NodeJS</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/mongodb.png"/></span>MongoDB</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/></span>C++</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/50/000000/react-native.png"/></span>React(just Started :)</li>
+              <li class="skillset"><span><img class="logo1" src="https://img.icons8.com/color/48/000000/python.png"/></span>Python(and its libraries like - NumPy, Pandas, Matplotlib etc.)</li>
+              <hr class="my-4">
+            </ul>
+            <h4>I also have done some courses :-</h4>
+            <ul class="courses">
+              <li>The Web Developer Bootcamp 2020</li>
+              <li>Mastering Data Structures and Algorithms using C and C++</li>
+              <li>The Complete Javascript course 2020: From Zero to expert</li>
+              <li>Python Programming</li>
+              <li> And YouTube</li>
+            </ul>
+          </div>
+        <div class="col-lg-6">
+          <ul class="progressbar">
+            <li><span><img class="logo2" src="https://img.icons8.com/nolan/48/source-code.png"/></span>Front End
+              <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75 %</div>
+              </div>
+            </li>
+            <li><span><img class="logo2" src="https://img.icons8.com/fluent/48/000000/source-code.png"/></span>Back End
+              <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60 %</div>
+              </div>
+            </li>
+            <li><span><img class="logo2" src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/></span>C++
+              <div class="progress">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65 %</div>
+              </div>
+            </li>
+            <li><span><img class="logo2" src="https://img.icons8.com/color/48/000000/python.png"/></span>Python
+              <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40 %</div>
+              </div>
+            </li>
+            <li><span><img class="logo2" src="https://img.icons8.com/cotton/64/000000/cloud-computing.png"/></span>Cloud Computing
+              <div class="progress">
+                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35 %</div>
+              </div>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="third" id="third">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <h1 class="display-4" id="skills">Projects</h1>
+            <h5 id="Projects">These projects are the ones which I made while learning Web Development. I will Upload these to Github shortly.</h5>
+            <div class="container">
+              <div class="col-md-3">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="YelpCampApp.png" alt="Yelp Camp App">
+                <div class="card-body">
+                  <h5 class="card-title">Yelp Camp App</h5>
+                  <p class="card-text">In this Web Application we can select different campgrounds and also create them , comments can also be provided and I also have provided Authentication in it and RESTful routes are used for different pages</p>
+                  <a href="https://hidden-eyrie-28599.herokuapp.com/" class="btn btn-primary">Go to Yelp Camp</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="BlogApp.png" alt="Blog App">
+                <div class="card-body">
+                  <h5 class="card-title">Blog App</h5>
+                  <p class="card-text">In this Web Application we can create our own blog and I also have provided Authentication in it and RESTful routes are used for different pages</p>
+                  <a href="#" class="btn btn-primary">Not On Github Yet</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="BlogApp.png" alt="Blog App">
+                <div class="card-body">
+                  <h5 class="card-title">Blog App</h5>
+                  <p class="card-text">In this Web Application we can create our own blog and I also have provided Authentication in it and RESTful routes are used for different pages</p>
+                  <a href="#" class="btn btn-primary">Not On Github Yet</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>           
           
-     </div>
-    
+
+    <footer class="fourth" id="fourth">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-1"></div>
+          <div class="col-sm-10">
+            <img class="contact_me" src="https://img.icons8.com/nolan/64/address-book.png"/>
+            <h1 class="display-4" id="skills">Contact Me</h1>
+            <p class="lead" id="con">Let's <img class="logo3" src="https://img.icons8.com/fluent/48/000000/source-code.png"/>together someday <img class="logo3" src="https://img.icons8.com/dusk/64/000000/thumb-up.png"/></p>
+            <hr class="my-4">
+            <span class="email" id="con">My Email ID is :- <a href="https://yogiky2002@gmail.com"> yogiky2002@gmail.com</a></span>
+            <span class="num" id="con">My Contact number is :- 9166910883</span>
+            <ul class="block d-flex justify-content-center">
+              <li class="li"><a href="https://www.facebook.com/profile.php?id=100038984987751"><img class="logo4" src="https://img.icons8.com/fluent/64/000000/facebook-new.png"/></a></li>
+              <li class="li"><a href="https://github.com/yogeshok"><img class="logo4" src="https://img.icons8.com/fluent/48/000000/github.png"/></a></li>
+              <li class="li"><a href="https://www.linkedin.com/in/yogesh-kumar-66474918b/"><img class="logo4" src="https://img.icons8.com/fluent/50/000000/linkedin.png"/></a></li>
+              <li class="li"><a href="https://twitter.com/YogeshK82142830"><img class="logo4" src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a></li>
+              <li class="li"><a href="https://yogiky2002@gmail.com"><img class="logo4" src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
+
+<!-- <a href="https://icons8.com/icon/676/happy">Happy icon by Icons8</a> --> 
