@@ -1,24 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	background: #fff;
 }
 
 .navbar {
-	margin: 0px 50px;
+	padding: 10px 50px 10px 50px;
+	z-index: 10;
+	opacity: 1;
+	width: 100%;
+}
+
+.navbar-light .navbar-brand:hover {
+	font-weight: 400;
+	font-size: 1.7em;
+	color: rgba(30,20,250,0.9);
 }
 
 .navbar-light .navbar-brand{
-	font-size: 1.5em;
-	padding: 10px 0px;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: 300;
+	font-size: 1.7em;
+	padding: 5px 0px;
 }
 
 .nav-item {
 	text-transform: uppercase;
 }
 
-.navbar-light .navbar-nav .nav-item .nav-link:hover,
-.navbar-light .navbar-nav .nav-item.active .nav-link {
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
 	background: rgba(70,60,250,0.5);
 	color: #fff;
 }
@@ -26,5 +40,27 @@ body {
 .navbar-light .navbar-nav .nav-item .nav-link {
 	color: #111111;
 	padding: 15px 15px;
-
 }
+
+.navbar-nav {
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+.container {
+	position: relative;
+	min-height: 80vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#myImage {
+	border-radius: 60%;
+}
+
+.container-fluid {
+	margin-top: 100px;
+}
+
+
+
