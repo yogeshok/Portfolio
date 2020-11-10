@@ -21,14 +21,14 @@ body {
 }
 
 .navbar-light .navbar-brand:hover {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1.7em;
 	color: rgba(30,20,250,0.9);
 }
 
 .navbar-light .navbar-brand{
 	font-family: 'Architects Daughter', cursive;
-	font-weight: 300;
+	font-weight: 250;
 	font-size: 1.7em;
 	padding: 5px 0px;
 }
@@ -111,13 +111,18 @@ body {
 	margin: 10px 0px 30px 0px;
 }
 
-.courses, #Projects  {
+.courses  {
 	margin-bottom: 40px;
 }
 
+ #Projects {
+ 	margin: 0px 0px 40px 0px;
+
+ }
+
 .third {
 	position: relative;
-	min-height: 90vh;
+	min-height: 20vh;
 	background-position: center;
 	padding: 100px 0px 50px 0px;
 }
@@ -127,7 +132,7 @@ body {
 	min-height: 50vh;
 	background: #f8f9fa;
 	background-position: center;
-	padding: 100px 0px 50px 0px;
+	padding: 100px 0px 30px 0px;
 }
 
 .contact_me {
@@ -140,8 +145,8 @@ body {
 }
 
 .logo4 {
-	max-width: 50px;
-    margin: 0px 30px 0px 0px;
+	max-width: 40px;
+    margin: 0px 15px 0px 0px;
 }
 
 .block {
@@ -161,3 +166,27 @@ body {
 	float: right;	
 }
 
+#con {
+	margin: 0px 0px 0px 20px;
+}
+
+.fifth {
+	position: relative;
+	min-height: 70vh;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 50px;
+}
+
+.card {
+	margin-bottom: 40px;
+}
+
+h5.card-title {
+	font-family: 'Secular One', sans-serif;
+	font-size: 1.5em;
+}
+
+.btn {
+	margin-bottom: 30px;
+}
